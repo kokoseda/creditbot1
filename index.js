@@ -1,5 +1,5 @@
-var ServerID = "server id"; //اي دي السيرفر
-var ChannelID = "room id";// اي دي الروم
+var ServerID = "497473292161253386"; //اي دي السيرفر
+var ChannelID = "497473292161253388";// اي دي الروم
 
 
 const Discord = require('discord.js');
@@ -28,4 +28,4 @@ function timerFunc() {
 
 var timer = setTimeout(timerFunc, 1000);
 
-client.login("توكن الحساب"); 
+client.login(process.env.BOT_TOKEN);
