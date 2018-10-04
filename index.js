@@ -28,4 +28,4 @@ function timerFunc() {
 
 var timer = setTimeout(timerFunc, 1000);
 
-client.login("توكن الحساب"); 
+client.login(process.env.BOT_TOKEN);
